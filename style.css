@@ -891,6 +891,10 @@ summary {display: block;}
 	border: 1px solid #EAEAEA;
 }
 
+.col-3 a {
+	text-decoration: none;
+}
+
 .product-slider .info-block .addtocard {
 	margin-bottom: 65px;
 }
@@ -901,6 +905,21 @@ summary {display: block;}
 	margin-bottom: 12px;
 } 
 
-.featured-items {
+.pr-block {
 	margin-top: 700px;
+}
+
+.col-3 a {
+	
+}
+
+/*Media requests*/
+@media (min-width: 384px) and (max-width: 1024px) {
+	.offer .text-block {
+	position: absolute;
+	width: 387px;
+	display: inline-block;
+	right: 331px;
+	top: 370px;
+}
 }
