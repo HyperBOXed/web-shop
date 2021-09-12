@@ -1,0 +1,191 @@
+/*Navbar*/
+header .navbar {
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 98.04%;
+
+width: 100%;
+height: 75px;
+
+background: #222222;
+}
+
+header .navbar #nav-icon {
+position: absolute;
+left: 14.44%;
+right: 82.81%;
+bottom: 19px;
+}
+
+header .navbar #nav-search-icon {
+position: absolute;
+left: 19.75%;
+right: 78.63%;
+bottom: 20px;
+}
+
+header .navbar #nav-menu-icon {
+position: absolute;
+left: 75.06%;
+right: 22.94%;
+bottom: 22px;
+}
+
+header .navbar #nav-profile-icon {
+position: absolute;
+left: 79.12%;
+right: 19.06%;
+bottom: 20px;
+}
+
+header .navbar #nav-cart-icon {
+position: absolute;
+left: 83%;
+right: 15%;
+bottom: 20px;
+}
+
+header .navbar .nav-cart-indicator {
+position: absolute;
+
+left: 84.38%;
+right: 14.44%;
+top:35%;
+
+bottom: 99.03%;
+}
+
+header .navbar .nav-cart-indicator .indicator {
+position: absolute;
+background: #F16D7F;
+
+width: 19px;
+height: 19px;
+border-radius: 100%;
+
+margin-top:-5px;
+
+z-index: 1;
+}
+
+header .navbar .nav-cart-indicator #nav-cart-icon {
+	top: 50%;
+	left: -25px;
+	z-index: 0;
+}
+
+header .navbar .nav-cart-indicator .indicator .cart-number {
+position: absolute;
+left: 50%;
+top: 10%;
+transform: translate(-50%,-50%);
+bottom: 99.14%;
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+
+color: #FFFFFF;
+}
+
+.banner-arrivals {
+position: absolute;
+width: 100%;
+height: 148px;
+top: 75px;
+
+background: #F8F3F4;
+}
+
+.banner-arrivals h3 {
+position: absolute;
+
+left: 230px;
+top: 59px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #F16D7F;
+}
+
+.banner-arrivals h4 {
+position: absolute;
+right: 230px;
+top: 65px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #636363;
+}
+
+/*Span highlight*/
+.hl-1 {
+font-family: Lato;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #F16D7F;
+}
+
+/*Banner options*/
+.banner-options {
+position: absolute;
+top: 223px;
+width: 100%;
+height: 132px;
+background: lightgray;
+}
+
+.banner-options summary {
+position: absolute;
+left: 246px;
+top: 51px;
+list-style: none;
+
+text-transform: uppercase;
+font-family: Lato;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+
+.banner-options summary .spec-icon {
+margin-left: 11px;
+margin-bottom: 3px;
+}
+
+.banner-options summary {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
