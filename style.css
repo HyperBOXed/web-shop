@@ -695,7 +695,6 @@ background: #F1E4E6;
 
 .banner_options .middle-block .center-container {
 	display: inline-flex;
-	float: center;
 }
 
 .banner_options .center-container .dropdown {
@@ -799,12 +798,25 @@ summary {display: block;}
 .product-slider #right-arrow {
 	float: right;
 	margin-top: 365px;
-	transform: rotate(180deg);
+	cursor: pointer;
+	transition: .2s ease-in;
 }
 
 .product-slider #left-arrow {
 	margin-top: 365px;
 	float: left;
+	cursor: pointer;
+	transition: .15s ease-out;
+}
+
+.product-slider #left-arrow:hover {
+	transform: scale(0.8);
+	transition: .2s ease-in;
+}
+
+.product-slider #right-arrow:hover {
+	transform: scale(0.8);
+	transition: .2s ease-in;
 }
 
 .product-slider {
