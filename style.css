@@ -919,7 +919,101 @@ summary {display: block;}
 	position: absolute;
 	width: 387px;
 	display: inline-block;
-	right: 331px;
+	right: 33px;
 	top: 370px;
+}
+
+.offer .deco-line {
+	position: absolute;
+	right: 434px;
+	width: 12px;
+	top: 382px;
+	height: 92px;
+	background: #F16D7F;
+}
+
+.promo {
+	margin: 12px;
+}
+
+.promo .col-3 .row-3 {
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 232px;
+	height: 260px;
+	margin: 15px;
+
+	text-align: center;
+}
+
+.promo .col-3 .row-1 {
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 1140px;
+	height: 180px;
+	margin: 15px;
+
+	text-align: center;
+}
+
+.company-features {
+	width: 100%;
+	height: auto;
+	background: #222224;
+}
+
+.company-features .container {
+	display: inline-flex;
+	width: 80%;
+	height: 100%;
+	padding: 60px;
+}
+
+.company-features .row-3 {
+	width: 325px;
+	height: 134px;
+
+	text-align: center;
+
+	margin: 40px;
+
+}
+
+.subscribe .s2 {
+	width: 100%;
+}
+
+.subscribe .right-block input[type="email"] {
+	width: 212px;
+	height: 49px;
+	background: #E1E1E1;
+	border: 0;
+	outline: 0;
+	border-radius: 20px 0px 0px 20px;
+	padding-left: 22px;
+	padding-right: 22px;
+	color: white;
+	font-size: 14px;
+	font-weight: 400;
+	color: rgb(100,100,100);
+}
+
+.subscribe .right-block input[type="submit"] {
+	width: 100px;
+	height: 49px;
+	color: white;
+	font-size: 14px;
+	font-weight: 400;
+	border: 0;
+	outline: 0;
+	background: #F16D7F;
+	border-radius: 0px 20px 20px 0px;
+	transition: .1s ease-out;
+	margin-bottom: 70px;
+	cursor: pointer;
 }
 }
